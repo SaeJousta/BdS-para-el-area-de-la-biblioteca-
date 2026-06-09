@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Glassmorphism Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <form id="registerForm">
+            <h2>CREAR CUENTA</h2>
+
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" placeholder="Nombre de usuario" required>
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <label>Correo electrónico</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
+                <label>Confirmar contraseña</label>
+            </div>
+
+            <button type="submit" id="registerBtn" class="login-btn">Crear cuenta</button>
+            <p class="message" id="registerMessage"></p>
+
+            <p class="signup-link">
+                ¿Ya tienes cuenta? <a href="#" id="showLogin">Iniciar sesión</a>
+            </p>
+        </form>
+
+        <form id="loginForm" class="hidden">
+            <h2>INICIAR SESIÓN</h2>
+
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="loginEmail" placeholder="Correo electrónico" required>
+                <label>Correo electrónico</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="loginPassword" placeholder="Contraseña" required>
+                <label>Contraseña</label>
+            </div>
+
+            <button type="submit" id="loginBtn" class="login-btn">Entrar</button>
+            <p class="message" id="loginMessage"></p>
+
+            <p class="signup-link">
+                ¿No tienes cuenta? <a href="#" id="showRegister">Crear cuenta</a>
+            </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
