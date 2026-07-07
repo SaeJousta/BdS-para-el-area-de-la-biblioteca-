@@ -1,0 +1,31 @@
+[
+  {
+    "username": "alessandroxd",
+    "email": "saejoustakurosaki@gmail.com",
+    "password": "2159801zx"
+  },
+  {
+    "id": "4ccfd961286b47be",
+    "username": "alessandroxd",
+    "email": "alesjosebriceno@gmail.com",
+    "password_hash": "0ec05c02c5e32ef7427462dbefeccc3abf22e7b3c3d7d918937fc46d1e5998e2",
+    "salt": "ad7a24fe1831c5a155dfb4c02ba5ca40",
+    "created_at": "2026-06-10T02:01:52.992641Z"
+  },
+  {
+    "id": "f8c93d85639825fc",
+    "username": "testuser",
+    "email": "testuser@example.com",
+    "password_hash": "66f53095fd7693940d1ee5819a27bc705720930f7453e1dd87a80d755e32a812",
+    "salt": "6c11259a9f5157b6df834a24bf8b941a",
+    "created_at": "2026-06-30T20:39:21.235685Z"
+  },
+  {
+    "id": "075082c56ec3e318",
+    "username": "alessandro briceño",
+    "email": "alesjosebriceno@outlook.com",
+    "password_hash": "4593c32fca2ff8038bf6b4626f08e76b812dabe0c326889a4272e1a465b8edba",
+    "salt": "dfaecac32e1249fa3f99cf19f7f9b0a2",
+    "created_at": "2026-06-30T20:42:30.292158Z"
+  }
+]
